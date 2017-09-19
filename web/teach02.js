@@ -1,14 +1,16 @@
 function clickMe() {
-	alert("You Fell For It!");
+	alert("Clicked!");
 }
 
-function colorChange(){
-	var textbox_id = "colorInput";
+function changeColor() {
+	var textbox_id = "txtColor";
 	var textbox = document.getElementById(textbox_id);
 
 	var div_id = "div1";
 	var div = document.getElementById(div_id);
 
-	var colors = textbox.value;
-	div.style.backgroundColor = colors;
+	// We should verify values here before we use them...
+	var color = textbox.value;
+	div.style.backgroundColor = color;
+
 }

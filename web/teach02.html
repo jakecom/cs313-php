@@ -5,23 +5,17 @@
 <script src="teach02.js"></script>
 <title>Teach One Another 02</title>
 </head>
-<body>
+	<body>
+		<div id="div1" class="div-first hover-bold">This is the first div.</div>
+		<div id="div2" class="div-later hover-bold">This is the second div.</div>
+		<div id="div3" class="div-later hover-bold">This is the third div.</div>
 
-<div id="div1" class="div-first hoverbold">1st Division</div>
+		<button onclick="clickMe();">Click me!</button><br/>
 
-<div id="div2" class="div-last hoverbold">2nd Division</div>
+		<label for="txtColor">Color:</label> <input type="text" id="txtColor" placeholder="#cccccc"><br />
 
-<div id="div3" class="div-last hoverbold">3rd Division</div>
+		<button onclick="changeColor();">Change color</button>
 
-<button type="button" onclick="clickMe();">Click Me</button>
+	</body>
 
-<label for="colorInput">Color:</label>
-
-<input type="text" id="theColor" placeholder="#cccccc">
-
-<br/><br/>
-
-<button onclick="colorChange();">Change color</button>
-
-</body>
-</html> 
+</html>

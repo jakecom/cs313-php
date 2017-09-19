@@ -1,0 +1,19 @@
+#div1 {
+	background-color: Yellow;
+	font-size: 2em;
+}
+
+#div2 {
+	background-color: Green;
+	font-size: .7em;
+}
+
+#div3 {
+	background-color: Teal;
+	font-size: 1em;
+}
+
+.hover-bold:hover {
+	font-weight: bold;
+	font-style: Monospace;
+}

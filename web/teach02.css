@@ -1,5 +1,5 @@
 #div1 {
-	background-color: Yellow;
+	
 	font-size: 2em;
 }
 
@@ -16,4 +16,5 @@
 .hover-bold:hover {
 	font-weight: bold;
 	font-style: Monospace;
+	background-color: Yellow;
 }

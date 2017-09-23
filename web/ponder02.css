@@ -1,5 +1,5 @@
 .div-first {
-	background-color: #00BCD4;
+	background-color: teal;
 	font-size: 2em;
 }
 
@@ -17,4 +17,8 @@
 
 .hover-bold:hover {
 	font-weight: bold;
+}
+
+#div1 {
+	text-align: center;
 }

@@ -1,5 +1,5 @@
 function clickMe() {
-	alert("Clicked!");
+	alert("Welcome to my homepage. Look around and enjoy yourself.");
 }
 
 function changeColor() {

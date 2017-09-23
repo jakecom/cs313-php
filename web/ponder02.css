@@ -19,6 +19,10 @@ div.div-later {
 	background-color: #4DD0E1;
 }
 
+p {
+	max-width: 500px;
+}
+
 #div3 {
 	background-color: #B2EBF2;
 	text-align: center;

@@ -37,3 +37,8 @@ img {
 	opacity:0.5;
 	filter: alpha(opacity=50);
 }
+
+#clicker {
+	position: relative;
+	bottom:-200px;
+}

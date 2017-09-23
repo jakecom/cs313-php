@@ -39,6 +39,10 @@ img {
 }
 
 #clicker {
+	
+}
+
+#buttons {
 	position: relative;
-	bottom:-200px;
+	bottom:-325px;
 }

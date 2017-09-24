@@ -12,6 +12,10 @@
 	margin-right: auto;
 }
 
+label {
+	style="background-color: #B2EBF2;"
+}
+
 #div2 {
 	background-color: #4DD0E1;
 }
@@ -45,6 +49,10 @@ img {
 #buttons {
 	position: relative;
 	bottom:-325px;
+}
+
+body {
+	background-image:url('programmingImage.jpg');
 }
 
  /* Dropdown Menu */

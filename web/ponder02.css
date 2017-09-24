@@ -1,5 +1,5 @@
 .div-first {
-	background-color: teal;
+	background-color: #4DD0E1;
 	font-size: 2em;
 	text-align: center;
 }
@@ -61,7 +61,7 @@ body {
 
  /* Dropdown Menu */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #4DD0E1;
     color: white;
     padding: 10px;
     font-size: 16px;

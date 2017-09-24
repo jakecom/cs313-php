@@ -12,12 +12,17 @@
 	margin-right: auto;
 }
 
+.subject {
+	background-color: #4DD0E1;
+	border-radius: 7px;
+}
+
 label {
 	style="background-color: #B2EBF2;"
 }
 
 #div2 {
-	background-color: #4DD0E1;
+	
 }
 
 p {
@@ -25,7 +30,6 @@ p {
 }
 
 #div3 {
-	background-color: #B2EBF2;
 	text-align: center;
 }
 
@@ -70,6 +74,7 @@ body {
 
 .dropdown {
     position: relative;
+    bottom:20px;
     display: inline-block;
 }
 

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>  
+<body>
+
+<form action="teach02.php" method="post">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+
+Major:
+<input type="radio" name="major"
+<?php if (isset($major) && $major=="cs") echo "checked";?>
+value="cs">Computer Science
+<input type="radio" name="major"
+<?php if (isset($major) && $major=="web") echo "checked";?>
+value="web">Web Design and Development
+<input type="radio" name="major"
+<?php if (isset($major) && $major=="it") echo "checked";?>
+value="it">Computer Information Technology
+<input type="radio" name="major"
+<?php if (isset($major) && $major=="ce") echo "checked";?>
+value="ce">Computer Engineering <br>
+
+
+Comments: <input type="text" name="comments"><br>
+<input type="submit">
+</form>
+
+</body>
+</html>

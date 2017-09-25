@@ -6,20 +6,15 @@
 Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
 
-Major:
-<input type="radio" name="major"
-<?php if (isset($major) && $major=="cs") echo "checked";?>
-value="cs">Computer Science
-<input type="radio" name="major"
-<?php if (isset($major) && $major=="web") echo "checked";?>
-value="web">Web Design and Development
-<input type="radio" name="major"
-<?php if (isset($major) && $major=="it") echo "checked";?>
-value="it">Computer Information Technology
-<input type="radio" name="major"
-<?php if (isset($major) && $major=="ce") echo "checked";?>
-value="ce">Computer Engineering <br>
+Major:<br />
+	<input type="radio" name="major" value="Computer Science" id="cs"><label for="cs">Computer Science</label><br />
 
+	<input type="radio" name="major" value="Web Design and Development" id="web"><label for="web">Web Design and Development</label><br />
+
+	<input type="radio" name="major" value="Computer Information Technology" id="cit"><label for="cit">Computer Information Technology</label><br />
+
+	<input type="radio" name="major" value="Computer Engineering" id="ce"><label for="ce">Computer Engineering</label><br />
+<br />
 
 Comments: <input type="text" name="comments"><br>
 <input type="submit">

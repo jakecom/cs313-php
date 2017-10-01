@@ -48,14 +48,12 @@ h1, h2{
 @-webkit-keyframes mymove {
     from {color: green;}
     to {color: blue;}
-    50% {font: 10px bold;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
     from {color: green;}
     to {color: blue;}
-    50% {font: 10px bold;}
 }
 
 }

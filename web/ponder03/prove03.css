@@ -1,0 +1,61 @@
+body {
+        background-color:#000;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        min-width:1000px;
+}
+#wrapper {
+    position:absolute;
+    top:10px;
+    right:50px;
+    left:50px;
+    min-height:400px;
+    background-color:#b4b4b4;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+#submitButton {
+    display:inline-block;
+    padding: 2px 20px;
+    background-color:#FFF;
+    border: 1px solid #999;
+    opacity:.6;
+    cursor:pointer;
+    border-radius:7px;
+}
+img{
+  border-radius:20px;
+  border-width: 5px;
+  padding: 3px 3px 3px 3px;
+  border-style:groove;
+}
+h1, h2{
+  color: green;
+}
+#infor{
+  color:green;
+  font-family: Comic Sans MS;
+}
+#item {
+  color: green;
+  font-family: Comic Sans MS;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {color: green;}
+    to {color: blue;}
+    50% {font: 10px bold;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {color: green;}
+    to {color: blue;}
+    50% {font: 10px bold;}
+}
+
+}

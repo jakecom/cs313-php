@@ -3,7 +3,7 @@
 function get_db() {
 	$db = NULL;
 	try {
-		$dbUrl = getenv('https://mighty-caverns-23125.herokuapp.com/Java101');
+		$dbUrl = getenv('DATABASE_URL');
 		if (!isset($dbUrl) || empty($dbUrl)) {
 			$dbUrl = "postgres://postgres:CyberClean22@localhost:5432/Java101";
 		}
@@ -21,4 +21,4 @@ function get_db() {
 		die();
 	}
 	return $db;
-}                                      
+}                                  

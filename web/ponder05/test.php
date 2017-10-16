@@ -20,7 +20,7 @@ $db = get_db();
 <h1>HI</h1>
 
 <?php           
-$javaFaves = $db->prepare("SELECT * FROM item");
+$javaFaves = $db->prepare("SELECT * FROM Item");
 $javaFaves->execute();
 
 // Java Favorites          

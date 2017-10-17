@@ -46,6 +46,16 @@ thead{
   font-family: Comic Sans MS;
 }
 
+#cat4{
+    display: none;
+      color:green;
+  font-family: Comic Sans MS;
+}
+
+a.hover{
+    color:blue;
+}
+
 #menu {
     display:inline-block;
     padding: 2px 20px;
@@ -56,6 +66,10 @@ thead{
     border-radius:7px;
 }
 
+#menu.hover{
+    color:blue;
+}
+
 img{
   border-radius:20px;
   border-width: 5px;
@@ -63,7 +77,11 @@ img{
   border-style:groove;
 }
 
-h1, h2{
+a{
+    cursor:pointer;
+}
+
+h1, h2, a{
   color: green;
 }
 

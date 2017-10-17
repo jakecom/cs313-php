@@ -21,4 +21,4 @@ function get_db() {
 		die();
 	}
 	return $db;
-}                                  
+}

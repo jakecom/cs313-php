@@ -1,0 +1,93 @@
+body {
+        background-color:#000;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        min-width:1000px;
+}
+
+#wrapper {
+    position:absolute;
+    top:10px;
+    right:50px;
+    left:50px;
+    min-height:400px;
+    background-color:#b4b4b4;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+
+thead{
+    color:black;
+    font-weight: bold;
+    font-size:20px;
+}
+
+#cats, #ord{
+    display: none;
+}
+
+#cat1, #cat2, #cat3, #cat4, #cat5, #cat6, #cat7{
+    display: none;
+      color:green;
+  font-family: Comic Sans MS;
+}
+
+
+
+a{
+  color:rgb(190,0,190);
+}
+
+a.hover{
+    color:blue;
+}
+
+#menu {
+    display:inline-block;
+    padding: 2px 20px;
+    background-color:#FFF;
+    border: 1px solid #999;
+    opacity:.6;
+    cursor:pointer;
+    border-radius:7px;
+}
+
+#menu.hover{
+    color:blue;
+}
+
+#orders {
+    display:inline-block;
+    padding: 2px 20px;
+    background-color:#FFF;
+    border: 1px solid #999;
+    opacity:.6;
+    cursor:pointer;
+    border-radius:7px;
+}
+
+#orders.hover{
+    color:blue;
+}
+
+img{
+  border-radius:20px;
+  border-width: 5px;
+  padding: 3px 3px 3px 3px;
+  border-style:groove;
+}
+
+a{
+    cursor:pointer;
+}
+
+h1, h2, a{
+  color: green;
+}
+
+p{
+  color:green;
+  font-family: Comic Sans MS;
+}
